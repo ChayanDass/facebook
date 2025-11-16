@@ -127,6 +127,7 @@ Format:
 Facebook Username: example@gmail.com Pass: mypassword
 Facebook Username: john Pass: 123456
 ```
+<img width="1059" height="263" alt="Screenshot from 2025-10-31 13-16-54" src="https://github.com/user-attachments/assets/1a2c259c-922d-49a6-98e6-ecfc911e5163" />
 
 ---
 
